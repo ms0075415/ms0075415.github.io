@@ -31,7 +31,8 @@ nav li{
     background: url(../pictures/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100% 100%;
+    /* background-position: 100% 100%; */
+	background-position: center;
     height: 500px;
     margin-bottom: 0px;
     position: relative;
@@ -347,3 +348,7 @@ footer ul{
 .card {
 	width: 100%;
 }
+
+.white-space-nowrap {
+	white-space: nowrap;
+  }
